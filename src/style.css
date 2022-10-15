@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+button {
+  font-size: 19px;
+  color: white;
+  background-color: transparent;
+  border-radius: 1px;
+  border-color: white;
+  padding: 15px 50px;
+  cursor: pointer;
+  position: absolute;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}

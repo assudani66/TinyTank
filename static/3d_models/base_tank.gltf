@@ -1,0 +1,336 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "tank_base",
+            "scale" : [
+                0.7849369049072266,
+                0.626491904258728,
+                1.3857688903808594
+            ],
+            "translation" : [
+                0,
+                0.6248607635498047,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "tank_top",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.21434830129146576,
+                0.21434830129146576,
+                0.21434830129146576
+            ],
+            "translation" : [
+                0,
+                0.6324065923690796,
+                -0.12838000059127808
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "tank_barrel",
+            "rotation" : [
+                0.7094969153404236,
+                0,
+                0,
+                0.7047085165977478
+            ],
+            "scale" : [
+                0.21434830129146576,
+                0.21434830129146576,
+                0.21434830129146576
+            ],
+            "translation" : [
+                0,
+                0.9718661904335022,
+                0
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "tank_barrelAction",
+            "samplers" : [
+                {
+                    "input" : 12,
+                    "interpolation" : "LINEAR",
+                    "output" : 13
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "tank_base",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "tank_top",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "tank_barrel",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 36,
+            "max" : [
+                1,
+                0.0373801589012146,
+                0.9080679416656494
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1.0839662551879883
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 36,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 36,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 54,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 58,
+            "max" : [
+                2.8500311374664307,
+                4.208640098571777,
+                -1.1920928955078125e-07
+            ],
+            "min" : [
+                -2.8500311374664307,
+                -4.208641052246094,
+                -3.255250930786133
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 58,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 58,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 90,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 66,
+            "max" : [
+                0.9999999403953552,
+                0,
+                1.0000009536743164
+            ],
+            "min" : [
+                -1,
+                -10.216117858886719,
+                -0.9999992847442627
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 66,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 192,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 11,
+            "max" : [
+                0.4583333333333333
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 11,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 486,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 770,
+            "byteOffset" : 488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 702,
+            "byteOffset" : 1260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 44,
+            "byteOffset" : 1964
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 132,
+            "byteOffset" : 2008
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2140,
+            "uri" : "base_tank.bin"
+        }
+    ]
+}
